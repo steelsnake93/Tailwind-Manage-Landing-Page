@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-manage-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/main.css",
+    "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steelsnake93/Tailwind-Manage-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steelsnake93/Tailwind-Manage-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/steelsnake93/Tailwind-Manage-Landing-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
