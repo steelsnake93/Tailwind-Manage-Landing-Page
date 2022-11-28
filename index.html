@@ -16,7 +16,7 @@
                 <img src="img/logo.svg" alt="">
             </div>
             <!-- Menu Items -->
-            <div class="hidden md:flex space-x-6">
+            <div class="hidden space-x-6 md:flex">
                 <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
                 <a href="#" class="hover:text-darkGrayishBlue">Product</a>
                 <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
@@ -24,13 +24,31 @@
                 <a href="#" class="hover:text-darkGrayishBlue">Community</a>
             </div>
             <!-- Button -->
-            <a href="#" class="hidden md:block p-3 px-6 t-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+            <a href="#" class="hidden p-3 px-6 t-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get Started</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="hero">
-        
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 md:space-y-0 md:flex-row">
+            <!-- Left item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-cenetr md:text-5xl md:text-left">
+                    Bring everyone together to build better products
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team in view.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="#" class="p-3 px-6 t-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="md:w1/2">
+                <img src="img/illustration-intro.svg" alt="">
+            </div>
+        </div>
     </section>
 
 </body>
